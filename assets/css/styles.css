@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------------------General*/
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.ui-menu-color-home,
+.ui-menu-color-music,
+.ui-menu-color-tour-dates,
+.ui-menu-color-gallery,
+.ui-menu-color-contact {
+    background-color: rgba(250, 250, 250, 0.5);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Exo", sans-serif; 
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Exo", sans-serif; 
+    padding-bottom: 10px;
+}
+
+.heading p {
+    text-align: center;
+}
+
+.wall-background {
+    background: url(../../assets/images/textured-wall.jpg) no-repeat center center fixed; 
+    padding: 30px;
+}
+
+.information-container {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 30px;
+}
+
+.section {
+    padding: 50px;
+}
+
+/*--------------------------------------------Heading*/
+
+.navbar {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.navbar-nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 0;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.heading-logo img {
+    float: left;
+}
+
+.page-head {
+    margin-top: 25px;
+    width: 100%
+}
+
+/*--------------------------------------------Hover.css*/
+
+.navbar-default .navbar-nav li a:hover {
+    color: #5d33ce;
+    transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -webkit-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+}
+
+.foothover:hover {
+    color: #5d33ce;
+    transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -webkit-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+}
+
+.hvr-sweep-to-right:before {
+    color: #000000;
+    background-color: #000000;
+    border-color: #000000;
+    border: solid 1px;
+    transition: ease-in-out 1s;
+}
+
+.hvr-sweep-to-right:after {
+    color: #000000;
+    background-color: #000000;
+    transition: ease-in-out 0.35s;
+}
+
+button[type="submit"]:hover {
+    background-color: #a0a0a0;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+/*--------------------------------------------Footer*/
+
+footer {
+    background-color: #000000;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.footer-info ul li a {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fafafa;
+    letter-spacing: 30px;
+    padding-top: 10px;
+}
+
+.list-inline { 
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bookus {
+    color: #fafafa;
+    text-align: center;
+    font-weight: 500;
+}
+
+/*--------------------------------------------About Main*/
+
+
+/*--------------------------------------------Tour Dates*/
+
+.tourdate-item {
+    padding: 50px 32px 0 28px;
+    position: relative;
+    color: #000000;
+    border-left: 2px solid;
+    letter-spacing: 5px;
+}
+
+.tourdate-item p {
+    color: #5d33ce;
+    padding-left: 0;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+.tourdate-item::before {
+    position: absolute;
+    left: 40px;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.tourdate-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 75px;
+    position: absolute;
+    left: -7px;
+    border-radius: 12px;
+    content: '';
+    background: #000000;
+    border: #5d33ce solid;
+}
+
+.tourtimeline {
+    padding-bottom: 100px;
+}
+
+.ticket-colourbck a {
+    background-color: #ffffff;
+    color: #000000;
+    width: 100%;
+    transition: color 1s ease-in;
+}
+
+.ticket-colourbck {
+    color: #000000;
+    border-color: #000000;
+    border: solid 1px;
+    margin: 10px;
+    text-align: center;
+}
+
+/*--------------------------------------------Gallery*/
+
+.gallery-photo {
+    background-color: #ffffff;
+}
+
+.audio {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.audioclips {
+    padding-top: 15px;
+}
+
+.audioclips p {
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.bandimages img {
+    margin: 15px;
+    text-align: center;
+    -webkit-box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
+    transition: all.5s ease-in-out;
+    -moz-transition: all.5s ease-in-out;
+    -webkit-transition: all.5s ease-in-out;
+}
+
+/*--------------------------------------------Contact*/
+
+.contact {
+    padding: 30px;
+}
+
+.contactinfo {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.form-about {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    color: rgba(93, 51, 206, 0.8);
+}
+
+.center-form {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    margin: 5px;
+}
+
+textarea.form-control {
+    height: auto;
+    resize: none;
+}
+
+button[type="submit"] {
+    margin: 5px 5px 20px 5px;
+    background-color: #5d33ce;
+    color: #fafafa;
+    width: 100%;
+}
+
+/*--------------------------------------------Media Queries*/
+
+@media (max-width:414px) {
+.tourtimeline {
+    padding-left: 50px;
+}
+}
+
+@media (max-width: 320px) {
+.bandimages img {
+    margin: auto;
+    text-align: center;
+    -webkit-box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 33px 5px rgba(0,0,0,0.75);
+    transition: all.5s ease-in-out;
+    -moz-transition: all.5s ease-in-out;
+    -webkit-transition: all.5s ease-in-out;
+}
+}

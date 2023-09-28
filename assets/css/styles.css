@@ -6,7 +6,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.ui-menu-color-home,
 .ui-menu-color-music,
 .ui-menu-color-tour-dates,
 .ui-menu-color-gallery,
@@ -26,6 +25,7 @@ h1 {
     font-family: "Exo", sans-serif; 
     text-align: center;
     padding-bottom: 10px;
+    color: black;
 }
 
 h2,
@@ -34,6 +34,7 @@ h4,
 h5 {
     font-family: "Exo", sans-serif; 
     padding-bottom: 10px;
+    font-weight: 800;
 }
 
 .heading p {
@@ -41,14 +42,16 @@ h5 {
 }
 
 .wall-background {
-    background: url(../../assets/images/BlueBackground.jpg) no-repeat center center fixed; 
+    background: url(../../assets/images/backgoundStones.jpg) no-repeat center center fixed;
+    background-size: cover; 
     padding: 30px;
+    filter: brightness(110%);
 }
 
 .information-container {
     font-family: "Exo", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 16px;
     background-color: transparent;
     color: #000000;
     padding: 30px;
@@ -66,15 +69,19 @@ h5 {
 }
 
 .navbar-nav {
-    padding-top: 20px;
+    padding-top: 120px;
     padding-bottom: 20px;
     margin-right: 0;
 }
 
 .navbar-nav a {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     font-weight: 500;
+}
+
+.navbar-default .navbar-nav li a {
+    color: rgb(41, 38, 38);
 }
 
 .heading-logo img {

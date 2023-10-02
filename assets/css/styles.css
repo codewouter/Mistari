@@ -136,31 +136,19 @@ button[type="submit"]:hover {
 /*--------------------------------------------Footer*/
 
 footer {
-    background-color: #000000;
+    background-color: #1caee7;
     padding-bottom: 15px;
     padding-top: 15px;
 }
 
-.footer-info ul li a {
+.footer-info {
     font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    color: #fafafa;
-    letter-spacing: 30px;
+    font-weight: 200;
+    font-size: 14px;
+    color: #cee6f1;
     padding-top: 10px;
+    Padding-left: 10%;
 }
-
-.list-inline { 
-    text-align: center;
-    padding-top: 10px;
-}
-
-.bookus {
-    color: #fafafa;
-    text-align: center;
-    font-weight: 500;
-}
-
 /*--------------------------------------------About Main*/
 /*--------------------------------------------Contact*/
 

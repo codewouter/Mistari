@@ -6,13 +6,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.ui-menu-color-music,
-.ui-menu-color-tour-dates,
-.ui-menu-color-gallery,
-.ui-menu-color-contact {
-    background-color: rgba(250, 250, 250, 0.5);
-}
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -45,7 +38,7 @@ h5 {
     background: url(../../assets/images/backgoundStones.jpg) no-repeat center center fixed;
     background-size: cover; 
     padding: 30px;
-    filter: brightness(110%);
+    filter: brightness(150%);
 }
 
 .information-container {
@@ -103,13 +96,13 @@ h5 {
     -o-transition: all 0.50s ease-in-out;
 }
 
-.foothover:hover {
+/* .foothover:hover {
     color: #5d33ce;
     transition: all 0.50s ease-in-out;
     -moz-transition: all 0.50s ease-in-out;
     -webkit-transition: all 0.50s ease-in-out;
     -o-transition: all 0.50s ease-in-out;
-}
+} */
 
 .hvr-sweep-to-right:before {
     color: #000000;
@@ -144,10 +137,14 @@ footer {
 .footer-info {
     font-family: "Exo", sans-serif;
     font-weight: 200;
-    font-size: 14px;
+    font-size: 16px;
     color: #cee6f1;
     padding-top: 10px;
     Padding-left: 10%;
+}
+
+.footer-logo {
+    width:50%;
 }
 /*--------------------------------------------About Main*/
 /*--------------------------------------------Contact*/

@@ -78,7 +78,7 @@ h5 {
 }
 
 .heading-logo img {
-    float: left;
+    float: left;    
 }
 
 .page-head {
@@ -86,6 +86,14 @@ h5 {
     width: 100%;
 }
 
+/*--------------------------------------------Mainbody*/
+
+.nieske-wiebenik  {
+    margin: auto;
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 50%;
+}
 /*--------------------------------------------Hover.css*/
 
 .navbar-default .navbar-nav li a:hover {

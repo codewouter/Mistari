@@ -38,7 +38,7 @@ h5 {
     background: url(../../assets/images/backgoundStones.jpg) no-repeat center center fixed;
     background-size: cover; 
     padding: 30px;
-    filter: brightness(150%);
+    filter: brightness(100%);
 }
 
 .information-container {

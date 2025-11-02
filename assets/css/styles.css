@@ -4,6 +4,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 
 .uppercase {
@@ -38,7 +39,7 @@ h5 {
     background: url(../../assets/images/backgoundStones.jpg) no-repeat center center fixed;
     background-size: cover; 
     padding: 30px;
-    filter: brightness(100%);
+    filter: brightness(120%);
 }
 
 .information-container {
